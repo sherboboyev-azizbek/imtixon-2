@@ -1,0 +1,285 @@
+.servic {
+   padding: 0 0 235px 0;
+}
+.servic__list-box{
+   position: relative;
+}
+.servic__title {
+   margin: 0 0 80px 0;
+   text-align: center;
+   font-family: 'Futura PT';
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 54px;
+   color: #333333;
+}
+.servic__btn {
+   position: absolute;
+   top: 40%;
+   left: -60px;
+   background-color: #FFFFFF;
+   padding: 12px 18px;
+   border: 1px solid #fff;
+   &:hover{
+      background-color: #EFEFEF;
+   }
+   &:active{
+      opacity: 0.6;
+   }
+   
+}
+
+.servic__last-btn {
+   position: absolute;
+   top: 40%;
+   right: 29px;
+   border: none;
+   padding: 12px 18px;
+   background-color: #fff;
+   border: 1px solid #fff;
+   &:hover{
+      background-color: #EFEFEF;
+   }
+   &:active{
+      opacity: 0.6;
+   }
+   
+}
+
+
+.psevda{
+   display: flex;
+   align-items: center;
+   padding: 0;
+   list-style-type: none;
+}
+
+.psevda__item {
+   position: relative;
+   width: 193px;
+   margin: 0 13px 0 0;
+   padding: 130px 32px 28px;
+   text-align: center;
+   background-color: #FFFFFF;
+   border: 1px solid #F3F3F3;
+   border-radius: 5px;
+   &:nth-child(1){
+      padding: 140px 32px 42px;
+   }
+   &:nth-child(4){
+      padding: 140px 32px 39px;
+   }
+   &:nth-child(6){
+      margin-right: 0px;
+      
+      padding: 140px 32px 39px;
+   }
+   &:hover{
+      opacity: 0.8;
+   }
+   &:active{
+      opacity: 0.6;
+   }
+   
+   
+}
+.psevda__link-p{
+   text-decoration: none;
+   &::after {
+      position: absolute;
+      top: 30px;
+      left: 71px;
+      display: block;
+      width: 54px;
+      height: 78px;
+      background-image: url('../../images/doctor.svg');
+      background-repeat: no-repeat;
+      content: '';
+   }
+   
+   
+}
+.psevda__link-p-2{
+   text-decoration: none;
+   &::after {
+      position: absolute;
+      top: 30px;
+      left: 65px;
+      display: block;
+      width: 62px;
+      height: 77px;
+      background-image: url('../../images/qizcha-2.svg');
+      background-repeat: no-repeat;
+      content: '';
+   }
+   
+}
+.psevda__link-x{
+   text-decoration: none;
+   &::after {
+      position: absolute;
+      top: 30px;
+      left: 60px;
+      display: block;
+      width: 72px;
+      height: 77px;
+      background-image: url('../../images/dog-after.svg');
+      background-repeat: no-repeat;
+      content: '';
+   }
+}
+.psevda__link-d{
+   text-decoration: none;
+   &::after {
+      position: absolute;
+      top: 30px;
+      left: 52px;
+      display: block;
+      width: 76px;
+      height: 76px;
+      background-image: url('../../images/dog.svg');
+      background-repeat: no-repeat;
+      content: '';
+   }
+   
+}
+.psevda__link-l{
+   text-decoration: none;
+   &::after {
+      position: absolute;
+      top: 30px;
+      left: 57px;
+      display: block;
+      width: 78px;
+      height: 78px;
+      background-image: url('../../images/labor.svg');
+      background-repeat: no-repeat;
+      content: '';
+   }
+   
+}  
+.psevda__link-o{
+   text-decoration: none;
+   &::after {
+      position: absolute;
+      top: 30px;
+      left: 58px;
+      display: block;
+      width: 76px;
+      height: 76px;
+      background-image: url('../../images/dog-two.svg');
+      background-repeat: no-repeat;
+      content: '';
+   }
+   
+}           
+
+
+.psevda__title{
+   margin: 0;
+   font-family: 'Futura PT';
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 22px;
+   align-items: center;
+   text-align: center;
+   color: #333333;
+}
+
+
+
+.inspection {
+   display: flex;
+   align-items: center;
+   padding: 41px 0px 41px;
+   
+   background: #FFFFFF;
+   border-radius: 0px 5px 5px 5px;
+}
+.ins-left {
+   margin-right: 60px;
+}
+.inspection__title {
+   margin: 0 0 18px 0;
+   font-family: 'Futura PT';
+   font-weight: 500;
+   font-size: 36px;
+   line-height: 20px;
+   align-items: center;
+}
+.inspection__text-box {
+   width: 492px;
+}
+.inspection__text {
+   margin: 0 0 34px 0;
+   font-family: 'Futura PT';
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+   color: #949494;
+}
+.inspection__btn {
+   position: relative;
+   display: inline-block;
+   padding: 16px 36px 16px 63px;
+   margin-right: 21px;
+   background: #FFBD54;
+   border-radius: 3px;
+   border: 3px solid #FFBD54;
+   font-family: 'Futura PT';
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px;
+   color: #FFFFFF;
+   &::before{
+      position: absolute;
+      z-index: 10;
+      top: 15px;
+      left: 35px;
+      display: block;
+      width: 22px;
+      height: 21px;
+      background-image: url(../../images/money.svg);
+      background-repeat: no-repeat;
+      content: "";
+   }
+   &:hover{
+      opacity: 0.8;
+   }
+   &:active{
+      opacity: 0.6;
+   }
+   
+   
+}
+.inspection__btn-last {
+   position: relative;
+   display: inline-block;
+   padding: 15px 37px 15px 64px;
+   background: #333333;
+   border-radius: 3px;
+   font-family: 'Futura PT';
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px;
+   color: #FFFFFF;
+   &::before{
+      position: absolute;
+      z-index: 10;
+      top: 15px;
+      left: 35px;
+      display: block;
+      width: 21px;
+      height: 21px;
+      background-image: url(../../images/document.svg);
+      background-repeat: no-repeat;
+      content: "";
+      
+   }
+   &:hover{
+      opacity: 0.8;
+   }
+   &:active{
+      opacity: 0.6;
+   }
+}

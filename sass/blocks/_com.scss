@@ -1,0 +1,77 @@
+
+.com {
+   padding: 0 0 247px 0;
+}
+.com-inner{
+   display: flex;
+}
+.com__right {
+   padding: 62px 0 74px 166px;
+   width: 990px;
+   background-image: url(../../images/feedback-bg.png);
+   background-repeat: no-repeat;
+   background-size: 967px 624px;
+   background-color: #333333;
+}
+.com__title {
+margin: 0 0 14px 0;
+font-family: 'Futura PT';
+font-weight: 700;
+font-size: 48px;
+line-height: 62px;
+color: #FFFFFF;
+}
+.com__text-box {
+   width: 334px;
+   margin-bottom: 29px;
+}
+.com__text {
+margin: 0;
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #949494;
+}
+.com__input-name {
+   display: block;
+   width: 375px;
+   padding: 16px 290px 13px 22px;
+   margin-bottom: 14px;
+}
+.com__input-email {
+   display: block;
+   width: 375px;
+   padding: 16px 188px 13px 22px;
+   margin-bottom: 14px;
+
+}
+.com__input-last{
+   width: 375px;
+   display: block;
+   padding: 17px 207px 127px 22px;
+   margin-bottom: 30px;
+
+}
+.com__button {
+   display: inline-block;
+   padding: 15px 49px 14px 50px;
+   font-family: 'Futura PT';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px;
+   color: #FFFFFF;
+   background-color: #FFBD54;
+   border-radius: 0px;
+   border: none;
+   text-align: center;
+   &:hover{
+      opacity: 0.8;
+   }
+   &:active{
+      opacity: 0.6;
+   }
+   
+}

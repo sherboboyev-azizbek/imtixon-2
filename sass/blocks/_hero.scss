@@ -1,0 +1,57 @@
+.hero {
+   padding: 153px 0px 311px 0px;
+   background-image: url(../../images/hero-bg.png), url(../../images/parrot.png);
+   background-repeat: no-repeat;
+   background-size:  870px 835px, 350px 430px;
+   background-position: calc(50% - 500px) calc(50% - 180px), calc(50% + 700px) calc(50% + 120px) ;
+
+}
+.hero-inner {
+ display: block;
+ width: 608px;
+ margin-left: auto;
+
+}
+.hero__title {
+   margin: 0 0 29px 0;
+   font-family: 'Futura PT';
+   font-weight: 700;
+   font-size: 70px;
+   line-height: 64px;
+   color: #333333;
+}
+.hero__title-color {
+   color: #78C0DE;
+}
+.hero__text-box {
+   width: 495px;
+   margin: 0 0 38px 0;
+
+}
+.hero__text {
+ margin: 0;
+font-family: 'Futura PT';
+font-weight: 350;
+font-size: 16px;
+line-height: 21px;
+color: #949494;
+}
+.hero__link{
+   display: inline-block;
+   font-family: 'Futura PT';
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px;
+   color: #FFFFFF;
+   padding: 16px 48px;
+   text-decoration: none;
+   background-color: #333333;
+   border-radius: 3px;
+   &:hover{
+  opacity: 0.8;
+   }
+   &:active{
+      opacity: 0.6;
+       }
+
+}

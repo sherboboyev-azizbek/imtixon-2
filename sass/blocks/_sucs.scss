@@ -1,0 +1,71 @@
+.sucs {
+   padding: 90px 0px 88px 222px;
+   background-image: url(../../images/sucs-bgi.png);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   
+}
+
+.sucs-inner {
+   position: relative;
+   &::before{
+      position: absolute;
+      z-index: 60;
+      top: -222px;
+      left: 490px;
+      display: block;
+      width: 613px;
+      height: 481px;
+      background-image: url(../../images/kuchu.png);
+      background-repeat: no-repeat;
+      content: "";
+   }
+   
+ 
+   
+}
+.sucs__title {
+margin: 0 0 32px 0;
+font-family: 'Futura PT';
+font-weight: 700;
+font-size: 48px;
+line-height: 20px;
+color: #FFFFFF;
+}
+.form-box {
+}
+.sucs__input {
+   display: inline-block;
+   padding: 18px 135px 12px 22px;
+   width: 335px;
+   margin-right: 21px;
+   border: none;
+
+   &::placeholder{
+      display: inline-block;
+      font-family: 'Futura PT';
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: #949494;
+
+   }
+}
+.sucs__button {
+   display: inline-block;
+   padding: 15px 53px 14px 51px;
+   background: #333333;
+   border-radius: 3px;
+   font-family: 'Futura PT';
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px;
+   color: #FFFFFF;
+   &:hover{
+      opacity: 0.8;
+   }
+   &:active{
+      opacity: 0.6;
+   }
+   
+}

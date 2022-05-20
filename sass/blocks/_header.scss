@@ -1,0 +1,266 @@
+
+.header__top {
+   display: flex;
+   align-items: center;
+   padding: 13px 0 13px 192px;
+}
+.address {
+   margin: 0 106px 0 0;
+   padding: 0;
+   list-style-type: none;
+}
+.adress__item {
+   position: relative;
+   margin: 0;
+   padding: 0;
+   
+   &::before{
+      position: absolute;
+      top: 2px;
+      left: -23px;
+      display: block;
+      width: 14px;
+      height: 13px;
+      background-image: url(../images/home.svg);
+      background-size: 14px 13px;
+      background-repeat: no-repeat;
+      content: "";
+   }
+}
+.address__link{
+   position: relative;
+   display: inline-block;
+   font-family: 'Futura PT';
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 18px;
+   color: #333333;
+   text-decoration: none;
+   &::after{
+      position: absolute;
+      right: 0;
+      left: 0;
+      bottom: 2px;
+      z-index: -1;
+      width: 100%;
+      height: 0;
+      background-color: #F4FFAD;
+      content: " ";
+   }
+   &:hover::after{
+      height: 30%;
+   }
+   &:active{
+      opacity: 0.6;
+   }
+}
+
+.tel {
+   display: flex;
+   align-items: center;
+   margin: 0 0 0 0;
+   padding: 0;
+   list-style-type: none;
+}
+.tel__item{
+   position: relative;
+   margin: 0;
+   padding: 0;
+   &:nth-child(3) > .tel__link{
+      margin-right: 0;
+   }
+}
+.active--tel{
+   &::before{
+      position: absolute;
+      top: 2px;
+      left: -22px;
+      display: block;
+      width: 13px;
+      height: 13px;
+      background-image: url(../images/tel.svg);
+      background-size: 13px 13px;
+      background-repeat: no-repeat;
+      content: "";
+   }
+}
+.tel__link{
+   display: inline-block;
+   margin: 0 22px 0 0;
+   font-family: 'Futura PT';
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 18px;
+   color: #333333;
+   text-decoration: none;
+   
+   &:hover{
+      color: #FFBD54;;
+   }
+   &:active{
+      opacity: 0.6;
+   }
+}
+.tel__span {
+   position: absolute;
+   top: 50%;
+   right: 9px;
+   display: inline-block;
+   width: 4px;
+   height: 4px;
+   background-color: #FFBD54;
+   border-radius: 50%;
+}
+
+.time-head {
+   display: flex;
+   align-items: center;
+   margin: 0;
+   margin-left: auto;
+   padding: 0;
+   list-style-type: none;
+}
+.time-head__item {
+   position: relative;
+   margin: 0 17px 0 0;
+   padding: 0;
+   &:nth-child(2){
+      margin-right: 0;
+   }
+   
+}
+.active--time{
+   &::before{
+      position: absolute;
+      top: 2px;
+      left: -21px;
+      display: block;
+      width: 14px;
+      height: 14px;
+      background-image: url(../images/data.svg);
+      background-size: 14px 14px;
+      background-repeat: no-repeat;
+      content: "";
+   }
+}
+.time-head__time{
+   font-family: 'Futura PT';
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 18px;
+   color: #333333;
+}
+                                            // Header top shapka bitdi navbar boshlandi
+.header__bottom {
+   position: relative;
+   display: flex;
+   align-items: center;
+  
+}
+.header__logo-img {
+   position: absolute;
+   top: calc(50% - 50px);
+   left: calc(50% + -660px);
+   margin-right: 115px;
+}
+.header__logo-link{
+   &:active{
+      opacity: 0.6;
+   }
+  
+}
+.nav {
+   display: block;
+   align-items: center;
+   width: 100%;
+}
+.nav__list {
+   display: flex;
+   align-items: center;
+   margin: 0;
+   padding: 20px 0 20px 300px;
+   list-style-type: none;
+   
+}
+.nav__item {
+ 
+   margin: 0;
+   padding: 0;
+   &:nth-child(3) > .nav__link{
+      margin-right: 54px;
+   }
+   &:nth-child(6) > .nav__link{
+      margin-right: 0;
+   }
+   &:nth-child(7) > .nav__link{
+      margin-right: 0;
+   }
+   &:nth-child(7){
+      display: inline-block;
+      margin-left: auto;
+   }
+   
+}
+.nav__link {
+   position: relative;
+   display: inline-block;
+   margin: 0 55px 0 0;
+   text-decoration: none;
+   font-family: 'Futura PT';
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px;
+   color: #333333;
+   
+   &::after{
+      position: absolute;
+      right: 0;
+      left: 0;
+      bottom: 2px;
+      z-index: -1;
+      width: 100%;
+      height: 0;
+      background-color: #F4FFAD;
+      content: " ";
+   }
+   &:hover::after{
+      height: 30%;
+   }
+   &:active{
+      opacity: 0.6;
+   }
+  
+
+}
+.nav--active{
+
+   &::before{
+      position: absolute;
+      top: 4px;
+      left: -27px;
+      display: block;
+      width: 15px;
+      height: 15px;
+      background-image: url(../images/fish.svg);
+      background-size: 15px 15px;
+      background-repeat: no-repeat;
+      content: "";
+   }
+}
+.nav--fish{
+
+   
+   &::before{
+      position: absolute;
+      top: 0px;
+      left: -27px;
+      display: block;
+      width: 23px;
+      height: 21px;
+      background-image: url(../images/pet.svg);
+      background-size: 23px 21px;
+      background-repeat: no-repeat;
+      content: "";
+   }
+
+}
